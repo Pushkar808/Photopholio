@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navBar {
+  background-color: #6f6ff7;
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navBar li {
+  margin: 10px;
+  display: inline;
+  list-style: none;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+li span {
+  padding: 10px
+}
+
+.container {
+  padding: 30px 200px;
+}
+
+.headingContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Addalbumnbutton,
+.Cancelalbumnbutton {
+  padding: 25px 0px;
+}
+
+.Addalbumnbutton button {
+  border: 2px solid blue;
+  background-color: #c5e5f6c2;
+  color: blue;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Cancelalbumnbutton a {
+  border: 2px solid #e67676;
+  background-color: #e67676;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 10%;
+  text-decoration: none;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border-radius: 10px;
+  border: 4px solid #c7c7c7;
+}
+
+.imageContainer:hover {
+  box-shadow: 2px 5px #8888885d;
+  cursor: pointer;
+}
+
+.imageContainer .image {
+  padding: 30px;
+}
+
+.imageContainer .heading {
+  background-color: #c7c7c7;
+  width: 100%;
+  text-align: center;
+}
+
+.albumForm {
+  margin: 0px 165px;
+  padding: 10px 20px;
+  background-color: #c7c7c7;
+  border-radius: 10px;
+}
+
+.formContainer input {
+  width: 60%;
+  padding: 15px;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 20px;
+}
+
+.formContainer input:active {
+  border: 1px solid blue;
+}
+
+.formContainer button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  box-shadow: 2px 5px #8888885d;
+  margin: 10px;
+  text-decoration: none;
+  border: 0px;
+
+}
